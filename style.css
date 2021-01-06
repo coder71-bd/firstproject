@@ -1,19 +1,31 @@
 #index {
-  background-image: url("");
+  background-image: url(background-search.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+#index h1 {
+  font-weight: bolder;
+  color: white;
 }
 
 #advanced-search {
-  background-image: url("");
+  background-image: url(background-advanced-search.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
+#advanced-search h1 {
+  font-weight: bolder;
+  color: white;
+}
 
 #image-search {
-  background-image: url("");
+  background-image: url(background-img-search.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+#image-search h1 {
+  font-weight: bolder;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
