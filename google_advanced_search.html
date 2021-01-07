@@ -7,15 +7,21 @@
     <link rel="stylesheet" href="C:\Users\DELL\vs-code\cs50_project0\firstproject\style.css">
 </head>
 <body id="advanced-search">
-    <h1>Google advanced search</h1>
-    <form action="https://www.google.com/search" method="GET" name="f">
-        all these words:<input type="text" name="as_q">
-        these exact word or phrase:<input type="text" name="as_epq">
-        any of these words:<input type="text" name="as_oq">
-        none of these words:<input type="text" name="as_eq">
-        <input type="submit" value="advanced search">
-    </form>
     <a href="C:\Users\DELL\vs-code\cs50_project0\firstproject\google-image-search.html">Go to image search</a>
     <a href="C:\Users\DELL\vs-code\cs50_project0\firstproject\index.html">Go back to google search</a>
+
+    <h1 id="google_advanced">Google advanced search</h1>
+    <form action="https://www.google.com/search" method="GET" name="f" id="advanced-form">
+            <div>all these words:&nbsp;&nbsp;&nbsp;<input type="search" name="as_q" class="advsearchbox"><br>
+
+            these exact word or phrase:&nbsp;&nbsp;&nbsp;<input type="search" name="as_epq" class="advsearchbox"><br>
+
+            any of these words:&nbsp;&nbsp;&nbsp;<input type="search" name="as_oq" class="advsearchbox"><br>
+
+            none of these words:&nbsp;&nbsp;&nbsp;<input type="search" name="as_eq" class="advsearchbox"><br>
+            </div>
+            <button type="submit" class="advancedsearchbutton">advanced search</button>
+    </form>
+    
 </body>
 </html>

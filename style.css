@@ -3,29 +3,65 @@
   background-size: cover;
   background-attachment: fixed;
 }
-#index h1 {
+#index #google {
   font-weight: bolder;
+  font-size: 40px;
   color: white;
+  position: fixed;
+  top: 300px;
+  left: 45%;
 }
 
 #advanced-search {
   background-image: url(background-advanced-search.jpg);
-  background-size: cover;
-  background-attachment: fixed;
 }
-#advanced-search h1 {
+#advanced-search #google_advanced {
   font-weight: bolder;
+  font-size: 40px;
   color: white;
+  text-align: center;
+}
+#advanced-search #advanced-form div {
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 15px;
+}
+#advanced-search #advanced-form div .advsearchbox {
+  width: 300px;
+  height: 35px;
+}
+#advanced-search #advanced-form .advancedsearchbutton {
+  position: relative;
+  left: 70%;
 }
 
 #image-search {
   background-image: url(background-img-search.jpg);
-  background-size: cover;
-  background-attachment: fixed;
 }
-#image-search h1 {
+#image-search #google_image {
   font-weight: bolder;
+  font-size: 40px;
   color: white;
+  position: fixed;
+  top: 300px;
+  left: 45%;
+}
+
+#searchandimage input[type=search] {
+  position: absolute;
+  left: 50%;
+  top: 375px;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 44px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+#searchandimage .searchbutton {
+  position: fixed;
+  top: 420px;
+  left: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */

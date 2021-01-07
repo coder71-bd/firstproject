@@ -2,14 +2,15 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="C:\Users\DELL\vs-code\cs50_project0\firstproject\style.css">
     </head>
     <body id="index">
         <div>
-        <h1>Google search</h1>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <h1 id="google">Google</h1>
+        <form action="https://google.com/search" id="searchandimage">
+            <input type="search" name="q" placeholder="Search Google or type a URL" class="searchbox">
+            <button type="submit" class="searchbutton">Google Search</button>
         </form>
         <a href="C:\Users\DELL\vs-code\cs50_project0\firstproject\google-image-search.html">Go to image search</a>
         <a href="C:\Users\DELL\vs-code\cs50_project0\firstproject\google_advanced_search.html">Go to google advanced search</a>
